@@ -4,6 +4,22 @@
 
 Yet Another MOTD script for TES3MP.
 
+## Installation
+
+1. Place this repo into your `CoreScripts/scripts/custom/` directory.
+
+1. Add the following to `CoreScripts/scripts/customScripts.lua`:
+
+        ...
+        -- DataManager needs to before YAM, like this
+        DataManager = require("custom/DataManager/main")
+
+        require("custom/tes3mp-yam/main")
+
+1. Ensure that `DataManager` loads before this mod as seen above.
+
+1. Optionally configure YAM by editing the `CoreScripts/data/custom/__config_YAM.json` file (see below).
+
 ## Configuration
 
 * `btnText`
