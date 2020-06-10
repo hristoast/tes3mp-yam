@@ -12,7 +12,7 @@ YAM.defaultConfig = {
 YAM.config = DataManager.loadConfiguration(scriptName, YAM.defaultConfig)
 
 YAM.print = function(eventStatus, pid)
-	if eventStatus.validDefaultHandler then
+    if eventStatus.validDefaultHandler then
         if YAM.config.chatOnly or YAM.config.showInChat then
             tes3mp.SendMessage(pid, YAM.config.motd .. "\n")
         end
