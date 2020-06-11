@@ -22,5 +22,4 @@ YAM.print = function(eventStatus, pid)
     end
 end
 
-customEventHooks.registerHandler("OnPlayerEndCharGen", YAM.print)
-customEventHooks.registerHandler("OnPlayerFinishLogin", YAM.print)
+customEventHooks.registerHandler("OnPlayerAuthentified", YAM.print)

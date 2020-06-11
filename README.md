@@ -4,6 +4,8 @@
 
 Yet Another MOTD script for TES3MP.
 
+This should be considered a sample project structure for a script that allows user-configuration with DataManager, as well as event hooks.
+
 ## Installation
 
 1. Place this repo into your `CoreScripts/scripts/custom/` directory.
